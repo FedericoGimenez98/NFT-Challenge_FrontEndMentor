@@ -1,0 +1,102 @@
+body{
+    background-color: hsl(217, 54%, 11%);
+    margin: 0;
+    font-family: "Outfit", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+hr {
+    border: none;
+    height: 0.01rem; 
+    background-color: hsl(215, 51%, 70%); 
+    width: 100%; 
+    margin: 0.2rem 0rem;
+}
+.containerCard{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 1.5rem;
+    width: 320px;
+    box-shadow: 0px 10px 35px rgba(0, 0, 0, 0.5);   
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+}
+
+.card img{
+    border-radius: 0.5rem;
+    margin: auto;
+}
+.card h3, p{
+    padding: 0 1rem;
+    width: fit-content;
+}
+.text300{
+    font-weight: 300;
+}
+.text400{
+    font-weight: 400;
+}
+.text600{
+    font-weight: 600;
+}
+
+.fontSize18{
+    font-size: 18px;
+}
+.fontSize14{
+    font-size: 14px;
+}
+
+.textWhite{
+    color: hsl(0, 0%, 100%);
+}
+.textCyan{
+    color: hsl(178, 100%, 50%)
+}
+.textSoftBlue{
+    color: hsl(215, 51%, 70%);
+}
+
+.card img{
+    width: 90%;
+}
+.horizontal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.superpuesto{
+    position: relative;
+    width: 32px;
+    height: 32px;
+    padding: 0.5rem;
+}
+
+.superpuesto img {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+}
+
+.imagen1 {
+    z-index: 1;
+    
+}
+
+.imagen2 {
+    z-index: 2;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 32px;
+    height: 32px;
+   
+}
