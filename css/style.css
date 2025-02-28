@@ -135,14 +135,13 @@ hr {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); /* Centrar la imagen */
+    transform: translate(-50%, -50%);
     max-width: 50px;
     height: auto;
 }
 .NFT:hover .layer{
     display: flex;
-    opacity: 1; /* Hacemos la capa visible */
-    
+    opacity: 1;   
 }
 .NFT:hover{
     cursor: pointer;
